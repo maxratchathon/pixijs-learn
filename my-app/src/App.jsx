@@ -1,13 +1,13 @@
 import React from 'react';
-import OrganizationChart from './OrgChart.jsx';
-import HierarchyChart from './HierachyChart.jsx';
+import OrgChartTree from './assets/components/OrgChartTree.jsx';
 
 const App = () => {
 
 
   return (
     <div>
-      <HierarchyChart/>
+      {/* <HierarchyChart/> */}
+      <OrgChartTree/>
       
       {/* <OrganizationChart nodes={nodes} /> */}
     </div>
